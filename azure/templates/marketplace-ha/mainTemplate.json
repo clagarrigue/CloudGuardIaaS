@@ -408,7 +408,7 @@
       "offer": "[variables('imageOffer')]",
       "publisher": "[variables('imagePublisher')]",
       "sku": "sg-byol",
-      "version": "[variables('imageversion')]"
+      "version": "[parameters('imageversion')]"
     },
     "imageReferenceNGTP": {
       "offer": "[variables('imageOffer')]",
