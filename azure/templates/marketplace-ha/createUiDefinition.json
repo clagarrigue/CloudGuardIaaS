@@ -116,6 +116,7 @@
         "type": "Microsoft.Common.TextBox",
         "label": "Version",
         "toolTip": "Version Image Cloudguard",
+        "visible": true,
         "constraints": {
           "required": true,
         }
