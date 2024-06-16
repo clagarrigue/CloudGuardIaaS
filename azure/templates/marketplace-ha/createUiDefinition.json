@@ -118,7 +118,7 @@
         "toolTip": "Version Image Cloudguard",
         "visible": true,
         "constraints": {
-          "required": true,
+          "required": true
         }
       },          
           {
