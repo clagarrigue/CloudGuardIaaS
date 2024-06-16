@@ -2286,6 +2286,7 @@
       "vmName": "[basics('clusterObjectNameUi')]",
       "vmSize": "[coalesce(steps('chkp').R8040vmSizeUiBYOL, steps('chkp').R8040vmSizeUiNGTP, steps('chkp').R8040vmSizeUiNGTX, steps('chkp').R81vmSizeUiBYOL, steps('chkp').R81vmSizeUiNGTP, steps('chkp').R81vmSizeUiNGTX, steps('chkp').R8110vmSizeUiBYOL, steps('chkp').R8110vmSizeUiNGTP, steps('chkp').R8110vmSizeUiNGTX, steps('chkp').R8120vmSizeUiBYOL, steps('chkp').R8120vmSizeUiNGTP, steps('chkp').R8120vmSizeUiNGTX)]",
       "sicKey": "[steps('chkp').sicKeyUi]",
+      "imageversion": "[steps('chkp').imageversionUi]",
       "virtualNetworkName": "[steps('network').virtualNetwork.name]",
       "virtualNetworkAddressPrefixes": "[steps('network').virtualNetwork.addressPrefixes]",
       "subnet1Name": "[steps('network').virtualNetwork.subnets.subnet1.name]",
