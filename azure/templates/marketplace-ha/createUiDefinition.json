@@ -111,6 +111,15 @@
               ]
             }
           },
+      {
+        "name": "imageversionUi",
+        "type": "Microsoft.Common.TextBox",
+        "label": "Version",
+        "toolTip": "Version Image Cloudguard",
+        "constraints": {
+          "required": true,
+        }
+      },          
           {
             "name": "R8040vmSizeUiBYOL",
             "type": "Microsoft.Compute.SizeSelector",
