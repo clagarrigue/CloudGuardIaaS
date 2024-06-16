@@ -10,7 +10,7 @@ Benefits:
 
 · Provides consistent security policy management, enforcement, and reporting with a single pane of glass, using Check Point Unified Security Management
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgithub.com%2Fclagarrigue%2FCloudGuardIaaS%2Fmaster%2Fazure%2Ftemplates%2Fmarketplace-ha%2FmainTemplate.json/createUIDefinitionUri/https%3A%2F%2Fgithub.com%2Fclagarrigue%2FCloudGuardIaaS%2Fmaster%2Fazure%2Ftemplates%2Fmarketplace-ha%2FcreateUiDefinition.json">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fclagarrigue%2FCloudGuardIaaS%2Fmaster%2Fazure%2Ftemplates%2Fmarketplace-ha%2FmainTemplate.json/createUIDefinitionUri/https%3A%2F%2Fraw.githubusercontent.com%2Fclagarrigue%2FCloudGuardIaaS%2Fmaster%2Fazure%2Ftemplates%2Fmarketplace-ha%2FcreateUiDefinition.json">
  <img src="https://aka.ms/deploytoazurebutton" alt="Deploy to Azure" />
 </a>
 
