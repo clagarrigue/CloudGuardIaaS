@@ -30,6 +30,13 @@
         "description": "Check Point CloudGuard version"
       }
     },
+      "imageversion": {
+      "type": "string",
+      "metadata": {
+        "description": "Version to Deploy"
+      },
+      "defaultValue": "lastest"
+    },
     "authenticationType": {
       "type": "string",
       "allowedValues": [
@@ -401,31 +408,31 @@
       "offer": "[variables('imageOffer')]",
       "publisher": "[variables('imagePublisher')]",
       "sku": "sg-byol",
-      "version": "latest"
+      "version": "[variables('imageversion')]"
     },
     "imageReferenceNGTP": {
       "offer": "[variables('imageOffer')]",
       "publisher": "[variables('imagePublisher')]",
       "sku": "sg-ngtp",
-      "version": "latest"
+      "version": "[variables('imageversion')]"
     },
     "imageReferenceNGTP-V2": {
       "offer": "[variables('imageOffer')]",
       "publisher": "[variables('imagePublisher')]",
       "sku": "sg-ngtp-v2",
-      "version": "latest"
+      "version": "[variables('imageversion')]"
     },
     "imageReferenceNGTX": {
       "offer": "[variables('imageOffer')]",
       "publisher": "[variables('imagePublisher')]",
       "sku": "sg-ngtx",
-      "version": "latest"
+      "version": "[variables('imageversion')]"
     },
     "imageReferenceNGTX-V2": {
       "offer": "[variables('imageOffer')]",
       "publisher": "[variables('imagePublisher')]",
       "sku": "sg-ngtx-v2",
-      "version": "latest"
+      "version": "[variables('imageversion')]"
     },
     "imageReferenceMarketplace": "[if(equals(variables('offer'), 'BYOL'), variables('imageReferenceBYOL'), if(equals(variables('offer'), 'NGTP'), variables('imageReferenceNGTP'), if(equals(variables('offer'), 'NGTP-V2'), variables('imageReferenceNGTP-V2'), if(equals(variables('offer'), 'NGTX'), variables('imageReferenceNGTX'), if(equals(variables('offer'), 'NGTX-V2'), variables('imageReferenceNGTX-V2'), json('null'))))))]",
     "customImage": "customImage",
